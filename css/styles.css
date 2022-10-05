@@ -238,7 +238,7 @@ p {
 /* Fading animation */
 .fade {
   animation: fade forwards;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 
 @keyframes fade {
@@ -617,6 +617,12 @@ progress {
   float: left;
   width: 50%;
   padding: 10px;
+}
+
+@media screen and (max-width: 599px) {
+  .contact-col{
+    float: none;
+  }
 }
 
 .display-1 {
